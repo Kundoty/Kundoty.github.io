@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+p {
+    color: aqua;
+}
+
+.box {
+    border: 10px solid blueviolet;
+    border-radius: 10px;
+}
