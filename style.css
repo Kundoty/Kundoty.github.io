@@ -1,3 +1,5 @@
+/*---------------------------header---------------------------*/
+
 .banner {
     background-image: url(image/Arcaea-interview-5.jpg);
     background-size: cover;
@@ -34,8 +36,37 @@
     margin: 0 2vh 0 2vh;
 }
 
+/*----------------------------------------------------------*/
+/*--------------------------main------------------------*/
 
 body {
     background-color: rgb(235, 235, 235);
+    margin: 0;
+}
+
+.intro {
+    display: flex;
+    gap: 7vw;
+    margin: 15vh 10vw 5vh 10vw;
+    height: 40vh;
+}
+
+.cover {
+    padding: 4vh;
+}
+
+.cover img {
+    flex: 1;
+    width: auto;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.intro-text {
+    flex: 1;
+    text-align: center;
+}
+
+.intro-text h2 {
     margin: 0;
 }
