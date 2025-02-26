@@ -46,6 +46,11 @@
 /*----------------------------------------------------------*/
 /*--------------------------main------------------------*/
 
+main p {
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 body {
     background-color: rgb(235, 235, 235);
     margin: 0;
@@ -54,7 +59,7 @@ body {
 .intro {
     display: flex;
     gap: 7vw;
-    margin: 15vh 10vw 5vh 10vw;
+    margin: 10vh 10vw 5vh 10vw;
     height: 40vh;
 }
 .intro div {
@@ -68,9 +73,21 @@ body {
     text-align: center;
 }
 
+.cover2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cover img {
     width: auto;
     height: 100%;
+    border-radius: 20px;
+}
+
+.cover2 img {
+    width: 100%;
+    height: auto;
     border-radius: 20px;
 }
 
@@ -81,4 +98,8 @@ body {
 
 .intro-text h2 {
     margin: 0;
+}
+
+.intro.dev {
+    height: 50vh;
 }
