@@ -103,3 +103,16 @@ body {
 .intro.dev {
     height: 40vh;
 }
+
+.gameplay {
+    margin: 15vh 10vw 5vh 10vw;
+    text-align: center;
+}
+
+.gameplay-list {
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    height: 10vh;
+    margin-top: 5vh;
+}
